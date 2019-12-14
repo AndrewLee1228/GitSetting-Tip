@@ -1,4 +1,5 @@
 # GitSetting-Tip
+## 기본
 1. 설치
 ```shell
 brew install git git-lfs
@@ -11,7 +12,7 @@ git config --global user.email "you@your-domain.com"
 git config --global core.precomposeunicode true
 git config --global core.quotepath false
 ```
-2. 저장소별 계정 설정
+## 저장소별 계정 설정
 저장소마다 다른 계정으로 로그인 해야 할 경우 `git commit` 을 하면 기본적으로 global 에 설정된 계정 정보로 commit 이 만들어 집니다.
 
 이럴 땐 저장소 별로 `git config --local` 명령을 주면 됩니다. 이렇게하면 --global 보다 높은 우선순위를 가지게 됩니다.
