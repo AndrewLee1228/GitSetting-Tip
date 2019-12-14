@@ -19,7 +19,7 @@ git config --global core.quotepath false
 
 원하는 저장소로 가서 다음과 같이 명령을 입력해줍니다.
 ```shell
-git config --local user.name "현재 저장소에서 사용할 유저네임
+git config --local user.name "현재 저장소에서 사용할 유저네임"
 git config --local user.email "현재 저장소에서 사용할 email"
 ```
 이제는 local로 지정된 사용자 계정 정보로 commit/push가 이루어 집니다. : )
